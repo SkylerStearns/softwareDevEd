@@ -1,0 +1,47 @@
+/* elements */
+li {
+    background: white;
+}
+
+/* class */
+.className {
+    background: pink;
+}
+
+/* id */
+#idName {
+    background: black;
+}
+
+/* star */
+* {
+    border: 1px solid lightgrey;
+}
+
+/* descendant selectors */
+li a {
+    color: red;
+}
+
+/* adjacent selectors */
+h4 + ul {
+    border: 4px solid blue;
+}
+
+/* attribute selectors */
+a[href="http://www.google.com"] {
+    background: purple;
+}
+
+input[type="checkbox"] {
+    background: orange;
+}
+
+/* nth of type */
+li:nth-of-type(3){
+    background: teal;
+}
+
+li:nth-of-type(even){
+    text-decoration-line: underline;
+}

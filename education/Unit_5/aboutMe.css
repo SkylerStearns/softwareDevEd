@@ -1,0 +1,36 @@
+/* selector {
+    property: value;
+} */
+
+h1 {
+    /* basic colors */
+    color: green;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: groove; */
+    border: 5px groove rgb(200,100,200);
+}
+
+h2 {
+    /* hexadecimal */
+    color: #ff5050;
+}
+
+h4 {
+    /* rgb colors */
+    /* color: rgb(107, 230, 209); */
+    background: rgb(0,100,200);
+}
+
+body {
+    /* background: pink; */
+    background: url(https://images.unsplash.com/photo-1569597291935-39d007fceb90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    /* rgba where "a" means alpha, or transparancy (0-1 scale) */
+    color: rgba(0, 0, 0, .4);
+}
+
