@@ -10,7 +10,8 @@ div {
 }
 
 h1 {
-    text-align:center; 
+    text-align:center;
+    -webkit-user-select: none;
 }
 
 li {
@@ -20,6 +21,10 @@ li {
 
 a {
     color: #00ff00;
+    text-decoration: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 a:visited {
