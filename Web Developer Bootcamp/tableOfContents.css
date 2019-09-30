@@ -1,0 +1,40 @@
+body {
+    font-family: 'Press Start 2P';
+    background: url(http://www.techcredo.com/wp-content/uploads/2012/11/retro-8-bit-pixelart-wallpapers-19.jpg);
+    background-size: cover;
+    color: #00ff00;
+}
+
+div {
+    background: black;
+}
+
+h1 {
+    text-align:center;
+    -webkit-user-select: none;
+}
+
+li {
+    margin-left: 200px;
+    line-height: 2;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+#mango {
+    text-align: center;
+}
