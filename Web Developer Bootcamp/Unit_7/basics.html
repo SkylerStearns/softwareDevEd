@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Required Meta Tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,13 +10,52 @@
             Bootstrap Basics
         </title>
         
+        <!-- Page Tab Icon -->
         <link rel="icon" href="https://www.clipartwiki.com/clipimg/detail/13-130759_middle-finger-cursor-middle-finger-mouse-pointer-png.png" type="image/x-icon">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+       
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="bootstrap.css">
+        <link>
     </head>
 
-    <body>
-        <h1>
+    <body style="background-color:rgb(53,52,67)">
+        <h1 style="color:#FFF">
             Bootstrap Basics
         </h1>
+                
+        <p></p>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>This is a Jumbotron</h1>
+
+                <p>This is a demonstration of the jumbotron feature.</p>
+
+                <a href="/tableOfContents.html">
+                    <button class="btn btn-outline-dark"> 
+                        Table of Contents
+                    </button>
+                </a>
+ 
+            </div>
+
+            <h4 style="color:#FFF">
+                    Button examples
+                </h4>
+                
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button class="btn btn-outline-light btn-sm">Dark</button>
+            
+            <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label color:white for="customSwitch1">ON</label>
+                  </div> 
+        </div>
     </body>
 </html>
