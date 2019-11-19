@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         
-        <title>
+        <title >
             Bootstrap Basics
         </title>
         
@@ -16,18 +16,17 @@
         <!-- Bootstrap CSS -->
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="bootstrap.css">
-        <link>
     </head>
 
     <body style="background-color:rgb(53,52,67)">
-        <h1 style="color:#FFF">
+        <h1 style="color:#FFF" onselectstart="return false">
             Bootstrap Basics
         </h1>
                 
         <p></p>
 
         <div class="container">
-            <div class="jumbotron">
+            <div class="jumbotron" onselectstart="return false">
                 <h1>This is a Jumbotron</h1>
 
                 <p>This is a demonstration of the jumbotron feature.</p>
@@ -37,12 +36,11 @@
                         Table of Contents
                     </button>
                 </a>
- 
             </div>
 
-            <h4 style="color:#FFF">
+            <h4 style="color:#FFF" onselectstart="return false">
                     Button examples
-                </h4>
+              </h4>
                 
             <button type="button" class="btn btn-primary">Primary</button>
             <button type="button" class="btn btn-secondary">Secondary</button>
@@ -52,10 +50,31 @@
             <button type="button" class="btn btn-info">Info</button>
             <button class="btn btn-outline-light btn-sm">Dark</button>
             
+            <p></p>
+
             <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                    <label class="custom-control-label color:white for="customSwitch1">ON</label>
-                  </div> 
+                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                <label class="custom-control-label" for="customSwitch1" style="color:white" onselectstart="return false">Toggle this switch element</label>
+            </div>
+
+            <p></p>
+
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" style="color:white">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted" style="color:white">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" style="color:white">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1" style="color:white">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </body>
 </html>
