@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Flexbox</title>
+</head>
+<body class="mb-5">
+  <div class="container">
+    <h1 class="text-center display-4">Flexbox Part 1</h1>
+    <div class="d-flex flex-column align-items-end">
+      <a target="_blank" href="../../tableOfContents.html">Table of Contents</a>
+      <a target="_blank" href="https://getbootstrap.com/docs/4.4/utilities/flex/">Bootstrap Flex Documentation</a>
+    </div>
+    <br>
+    <span>Standard Box w/ Buttons</span>
+    <div class="border border-dark" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+    <br>
+    <span>Flexbox</span>
+    <div class="border border-dark d-flex" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+    <br>
+    <span>Flexbox w/ Justify Content (horizontal)</span>
+    <div class="border border-dark d-flex justify-content-around" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+    <br>
+    <span>Flexbox w/ Align Items (vertical)</span>
+    <div class="border border-dark d-flex justify-content-around align-items-start" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <h1 class="text-center display-4">Flexbox Part 2</h1>
+    <br>
+    <span>Flexbox</span>
+    <div class="border border-dark d-flex align-items-end" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+    <br>
+    <span>Flexbox w/ Row-Reverse</span>
+    <div class="border border-dark d-flex flex-row-reverse align-items-end" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+    <br>
+    <span>Flexbox w/ Column-Reverse</span>
+    <div class="border border-dark d-flex flex-column-reverse align-items-end" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+    <br>
+    <span>Flexbox w/ Row-Reverse, Justify-Content-Center, Align-Items-Center</span>
+    <div class="border border-dark d-flex flex-row-reverse justify-content-center align-items-center" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+    <br>
+    <span>Flexbox w/ Column-Reverse, Justify-Content-Center, Align-Items-Center</span>
+    <div class="border border-dark d-flex flex-column-reverse justify-content-center align-items-center" style="height: 150px">
+      <button class="btn btn-success btn-lg">LARGE</button>
+      <button class="btn btn-warning btn-md">MEDIUM</button>
+      <button class="btn btn-danger btn-sm">SMALL</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <h1 class="text-center display-4">Example</h1>
+    <br>
+    <span>Responsive: Change from Column to Row</span>
+    <div class="border border-danger d-flex flex-column flex-md-row justify-content-between align-items-stretch">
+      <div class="button btn btn-dark">Link 1</div>
+      <div class="button btn btn-dark">Link 2</div>
+      <div class="button btn btn-dark">Link 3</div>
+      <div class="button btn btn-dark">Link 4</div>
+      <div class="button btn btn-dark">Link 5</div>
+      <div class="button btn btn-dark">Link 6</div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
