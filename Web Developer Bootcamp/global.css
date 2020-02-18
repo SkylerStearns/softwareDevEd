@@ -1,6 +1,10 @@
-img {
-    max-width: 50px;
-    position: absolute;
-    top:0;
-    right:0;
+body {
+    font-family: sans-serif;
+}
+
+#mango {
+    max-width: 50px !important;
+    position: absolute !important;
+    top:0 !important;
+    right:0 !important;
 }
