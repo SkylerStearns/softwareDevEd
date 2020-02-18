@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
+
         <title>Registration</title>
         <link rel="stylesheet" href="./../global.css">
     </head>
@@ -15,27 +15,27 @@
         <form action="" method="GET">
             <div>
             <label for="firstName">
-                First Name: 
+                First Name:
             </label>
                 <input id="firstName" type="text" name="firstName" placeholder="John" required>
-            
+
             <label for="lastName">
-                Last Name: 
+                Last Name:
             </label>
                 <input id="lastName" type="text" name="lastName" placeholder="Smith" required>
             </div>
 
             <div>
             <label for="Male">
-                Male: 
+                Male:
             </label>
             <input id="Male" type="radio" name="Gender" value="male" required>
-                
+
             <label for="Female">Female: </label>
             <input id="Female" type="radio" name="Gender" value="female" required>
-                
+
             <label for="Other">
-                Other: 
+                Other:
             </label>
             <input id="Other" type="radio" name="Gender" value="other" required>
             </div>
@@ -44,12 +44,12 @@
             <label>
                 Email:
                 <input type="email" placeholder="your email" required>
-            </label>    
-    
+            </label>
+
             <label>
                 Password:
                 <input type="password" placeholder="your password" pattern=".{5,10}" title="Password must be between 5-10 characters." required>
-            </label>    
+            </label>
 
             </div>
 
@@ -166,11 +166,19 @@
             </fieldset>
             </div>
 
-            <p>I agree to the terms and conditions: <input type="checkbox" required></p>
+            <p>I agree to the terms and conditions:
+                <label>
+                    <input type="checkbox" required>
+                </label>
+            </p>
 
             <button>Submit</button>
         </form>
 
-        <div id="mango"><a href="../tableOfContents.html" draggable="false"><img src="http://coolmag.it/wp-content/uploads/2019/08/mango.jpg" style="max-width:2%" draggable="false"></a></div>
+        <div class="mango">
+            <a href="../tableOfContents.html" draggable="false">
+                <img id="mango" alt="mango" src="http://coolmag.it/wp-content/uploads/2019/08/mango.jpg" draggable="false">
+            </a>
+        </div>
     </body>
 </html>
