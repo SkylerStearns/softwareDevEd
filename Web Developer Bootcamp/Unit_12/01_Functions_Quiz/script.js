@@ -2,10 +2,13 @@ let arg = prompt('Please provide a number.');
 let kebab = prompt('Please provide a kebab string.');
 
 isEven(arg);
+console.log(isEven(arg));
 
 factorial(arg);
+console.log(factorial(arg));
 
-// kebabToSnake(kebab);
+kebabToSnake(kebab);
+console.log(kebabToSnake(kebab));
 
 // function isEven(arg) {
 //   if (arg % 2 === 0) {
