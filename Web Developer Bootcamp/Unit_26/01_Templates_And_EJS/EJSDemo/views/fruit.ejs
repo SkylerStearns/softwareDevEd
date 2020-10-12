@@ -1,0 +1,13 @@
+<%- include('partials/header'); %>
+
+    <h1>Your favorite fruit is: <%= fruitVar %></h1>
+
+    <p>This is the fruit.ejs file.</p>
+
+    <% if(fruitVar === 'mango' || fruitVar === 'mangoes') { %>
+        <p>That is correct. Mangoes are the best fruit.</p>
+    <% } else { %>
+        <p>That's fine, but not the answer we were looking for.</p>
+    <% } %>
+
+<%- include('partials/footer'); %>

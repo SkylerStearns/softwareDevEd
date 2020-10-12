@@ -1,0 +1,15 @@
+{
+  "name": "02_post_requests",
+  "version": "1.0.0",
+  "description": "post requests exercise and code along",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skyler Stearns",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

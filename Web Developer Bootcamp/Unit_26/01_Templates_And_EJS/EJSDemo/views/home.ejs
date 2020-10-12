@@ -1,0 +1,27 @@
+<%- include('partials/header'); %>
+
+    <h1>Welcome</h1>
+    <p>This is the home page!</p>
+
+    <img
+        style="max-height: 300px"
+        src="https://www.thespruceeats.com/thmb/_i6XSGjRXDBhOaQ4gqpfi7dbaIk=/4486x2523/smart/filters:no_upscale()/mango-at-the-market-506813675-587e60f53df78c17b6967f5e.jpg"
+        alt="Mangoes At The Market"
+    >
+
+    <p>In order to interact with this page, go to the following URL:</p>
+    <p>localhost:3000/fruit/{{ INSERT YOUR FAVORITE FRUIT HERE }}</p>
+    <p>
+        This exercise is grabbing params in the url get request,
+        and printing it on the page.
+    </p>
+    <p>
+        The entire page is being passed from the node.js server,
+        and being rendered with the user's favorite fruit.
+    </p>
+    <p>
+        If you want to see what's being sent from the server,
+        please look at your console, under the network tab.
+    </p>
+
+<%- include('partials/footer'); %>
